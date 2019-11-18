@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;04_HerenciaDeEmpleados/src/Beans&apos;&#x0D;&#x0A;- Original project: &apos;01_Programas_Basicos&apos;&#x0D;&#x0A;- Destination element: &apos;04_HerenciaDeEmpleados/src/Beans&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     beans.Departamento.java&#x0D;&#x0A;     beans.Empleado.java" description="Copy compilation units" destination="=04_HerenciaDeEmpleados/src&lt;Beans" element1="/src&lt;beans{Departamento.java" element2="/src&lt;beans{Empleado.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1572436958648" units="2" version="1.0"/>
+</session>

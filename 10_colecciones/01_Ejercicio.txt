@@ -1,0 +1,30 @@
+Pequeño programa que trabaje con coches
+Queremos que nuestros coches almacenen la siguiente información.
+	matricula
+	marca
+	modelo
+La aplicacion mostrará un menu con las siguientes opciones:
+	1.- Alta coche
+	2.- Listar coches
+	0.- Salir del programa.
+
+La opcion Alta coche nos preguntara por los datos del coche (matricula, marca y modelo) y lo guardara en memoria
+(Por ejemplo en un arraylist)
+La opcion listar coche nos sacará los coches que llevamos de alta
+La opcion 0 nos sacará del programa
+El menu se mostrará todo el rato hasta que se pulse la opción 0.
+
+Como empezar 
+
+generar clases
+
+	1 clase coche con matricula, marca y modelo
+	
+	2.- Clase con main : Estructura repetitiva hasta que se muestre el 0 (Do while)
+	
+		Arraylist para guardar los datos 
+		
+	
+	
+		
+
