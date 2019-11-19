@@ -92,11 +92,11 @@ public class EjercicioCoche {
 
 		System.out.println("Estos son los coches guardados");
 		System.out.println("------------------------------");
-		
+// para sacar una linea por cada coche		
 		for (Coche coche: listaCoches) {
 			System.out.println(coche);
 		}
-			
+// muestra todos los coches en orizontal			
 		System.out.println(listaCoches);
 		
 	}

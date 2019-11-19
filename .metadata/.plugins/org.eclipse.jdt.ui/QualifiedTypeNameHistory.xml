@@ -20,7 +20,8 @@
 <fullyQualifiedTypeName name="bean.Casa"/>
 <fullyQualifiedTypeName name="bean.Habitacion"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="bean.Persona"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="bean.Coche"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
