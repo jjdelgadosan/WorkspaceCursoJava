@@ -58,6 +58,8 @@ public class mainPeliculas {
 		System.out.println("introduzca el titulo a buscar: ");
 		System.out.println("------------------------------\n");
 		String titulo = sc.next();
+// Con este formato de for se recorre el array entero, y por cada registro recuperamos con el get el titulo de la 
+// pelicula guradada y lo comparamos con el titulo incluido por pantalla
 		for(Pelicula pelicula : listaPeliculas) {
 			if(pelicula.getTitulo().equals(titulo)) {
 				return pelicula;

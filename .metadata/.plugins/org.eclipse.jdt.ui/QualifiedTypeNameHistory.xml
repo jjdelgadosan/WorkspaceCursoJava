@@ -6,8 +6,6 @@
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="com.core.javaps.testbeans.TestEmpleado"/>
 <fullyQualifiedTypeName name="com.core.javaps.beans.Empleado"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="beans.Departamento"/>
 <fullyQualifiedTypeName name="beans.Empleado"/>
 <fullyQualifiedTypeName name="Beans.Pedido"/>
@@ -23,5 +21,15 @@
 <fullyQualifiedTypeName name="bean.Persona"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="bean.Coche"/>
+<fullyQualifiedTypeName name="Bean.Peliculas"/>
+<fullyQualifiedTypeName name="Bean.Director"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Bean.GestorPeliculas"/>
+<fullyQualifiedTypeName name="Bean.Pelicula"/>
+<fullyQualifiedTypeName name="java.awt.peer.ListPeer"/>
+<fullyQualifiedTypeName name="Modelo.negocio.GestorLibros"/>
+<fullyQualifiedTypeName name="Modelo_entidad.Libro"/>
+<fullyQualifiedTypeName name="Modelo_entidad.Libreria"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
