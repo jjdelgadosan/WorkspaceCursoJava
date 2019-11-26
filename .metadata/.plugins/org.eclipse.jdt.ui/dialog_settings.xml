@@ -115,6 +115,8 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="E:\libreria.jar"/>
+			<item value="E:\Ejecicio_Libro\TestBeans_ClientePedido.jar"/>
 			<item value="C:\Users\aula2m\Desktop\TestBeans_ClientePedido.jar"/>
 			<item value="C:\Users\aula2m\Desktop\Beans_ClientePedido.jar"/>
 		</list>

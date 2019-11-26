@@ -31,5 +31,9 @@
 <fullyQualifiedTypeName name="Modelo.negocio.GestorLibros"/>
 <fullyQualifiedTypeName name="Modelo_entidad.Libro"/>
 <fullyQualifiedTypeName name="Modelo_entidad.Libreria"/>
+<fullyQualifiedTypeName name="modelo.entidad.alumno"/>
+<fullyQualifiedTypeName name="modelo.entidad.Curso"/>
+<fullyQualifiedTypeName name="modelo.entidad.Profesor"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="entidad.Persona"/>
 </qualifiedTypeNameHistroy>
