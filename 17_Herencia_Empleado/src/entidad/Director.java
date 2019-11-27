@@ -19,12 +19,12 @@ Una vez hecho el modelo de datos se pide probar el modelo creando 4 programadore
 y se ejecutará el calcular sueldo total de cada uno de ellos para observar como el programa muestra
 cada uno de los sueldos totales
  */
-package bean;
+package entidad;
 import java.util.ArrayList;
 
 public class Director extends Empleado {
 
-	ArrayList<Empleado> listaEmpDirector;
+	private ArrayList<Empleado> listaEmpDirector;
 
 	/**
 	 * @return the listaEmpDirector

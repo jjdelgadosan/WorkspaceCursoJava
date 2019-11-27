@@ -1,4 +1,4 @@
-package bean;
+package entidad;
 
 public abstract class Empleado {
 	private String dni;

@@ -37,6 +37,7 @@
 	<section name="ZipFileImportWizard">
 		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="D:\16_empleados.zip"/>
 			<item value="C:\Users\aula2m\Desktop\TestBeans_ClientePedido.jar"/>
 			<item value="C:\Users\aula2m\Desktop\Beans_ClientePedido.jar"/>
 		</list>

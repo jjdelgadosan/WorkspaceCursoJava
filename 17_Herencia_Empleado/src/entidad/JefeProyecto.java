@@ -1,4 +1,4 @@
-package bean;
+package entidad;
 
 public class JefeProyecto extends Empleado {
 	
