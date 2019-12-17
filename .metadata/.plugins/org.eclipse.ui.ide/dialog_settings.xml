@@ -12,6 +12,12 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Jorge\workspaceJSE\22_ExamenDriver"/>
+			<item value="C:\Jorge\workspaceJSE\21_DriverBBDDFelix"/>
+			<item value="C:\Jorge\workspaceJSE\19_EmpleadosExcepcionesFelix"/>
+			<item value="C:\Jorge\workspaceJSE\17_EmpleadosHerenciaFelix"/>
+			<item value="C:\Jorge\workspaceJSE\18_Excepciones - Eugenio"/>
+			<item value="C:\Jorge\workspaceJSE\18_Excepciones"/>
 			<item value="C:\Jorge\workspaceJSE\17_empleado"/>
 			<item value="C:\Jorge\workspaceJSE\16_Herencia_Felix"/>
 			<item value="C:\Jorge\workspaceJSE\99_Herencia_Empleados_Felix"/>

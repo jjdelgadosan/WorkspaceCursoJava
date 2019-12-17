@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="Empleado"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="com.core.javaps.testbeans.TestEmpleado"/>
 <fullyQualifiedTypeName name="com.core.javaps.beans.Empleado"/>
 <fullyQualifiedTypeName name="beans.Departamento"/>
@@ -36,7 +32,6 @@
 <fullyQualifiedTypeName name="modelo.entidad.Profesor"/>
 <fullyQualifiedTypeName name="entidad.Persona"/>
 <fullyQualifiedTypeName name="entidad.Tiburon"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="entidad.Animal"/>
 <fullyQualifiedTypeName name="entidad.PezPayaso"/>
 <fullyQualifiedTypeName name="entidad.Trucha"/>
@@ -44,4 +39,25 @@
 <fullyQualifiedTypeName name="entidad.Placton"/>
 <fullyQualifiedTypeName name="entidad.JefeProyecto"/>
 <fullyQualifiedTypeName name="entidad.Director"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="interfaces.Oso"/>
+<fullyQualifiedTypeName name="interfaces.Movible"/>
+<fullyQualifiedTypeName name="java.net.ConnectException"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="Modelo.persistencia.DaoCoche"/>
+<fullyQualifiedTypeName name="java.util.TimeZone"/>
+<fullyQualifiedTypeName name="com.mysql.cj.xdevapi.PreparableStatement"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="Modelo.entidad.Coche"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="modelo.persistencia.DaoPelicula"/>
+<fullyQualifiedTypeName name="negocio.GestorPeliculas"/>
+<fullyQualifiedTypeName name="modelo.entidad.Pelicula"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="modelo.entidad.Libro"/>
 </qualifiedTypeNameHistroy>

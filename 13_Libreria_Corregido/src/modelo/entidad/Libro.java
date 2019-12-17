@@ -1,6 +1,7 @@
 package modelo.entidad;
 
 public class Libro {
+	private int id;
 	private String isbn;
 	private String titulo;
 	private String editorial;
@@ -30,11 +31,19 @@ public class Libro {
 	public void setAnioPublicacion(int anioPublicacion) {
 		this.anioPublicacion = anioPublicacion;
 	}
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	@Override
 	public String toString() {
-		return "Libro [isbn=" + isbn + ", titulo=" + titulo + ", editorial=" + editorial + ", anioPublicacion="
-				+ anioPublicacion + "]";
+		return "Libro [id=" + id + ", isbn=" + isbn + ", titulo=" + titulo + ", editorial=" + editorial
+				+ ", anioPublicacion=" + anioPublicacion + "]";
 	}
+	
 	
 	
 }
