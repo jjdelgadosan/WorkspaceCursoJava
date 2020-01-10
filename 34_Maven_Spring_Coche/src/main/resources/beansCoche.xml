@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="coche1" class="modelo.entidad.Coche">
+		<property name="matricula" value="5555"></property>
+		<property name="marca" value="Renault"></property>
+		<property name="modelo" value="Laguna"></property>
+		<property name="segundaMano" value="false"></property>
+		<property name="precio" value="30000"></property>
+		<property name="peso" value="1200"></property>
+		<property name="motor" ref="motor1"></property>
+	</bean>
+	
+	<bean id="motor1" class="modelo.entidad.Motor">
+		<property name="tipoMotor" value="Electrico"></property>
+		<property name="cv" value="100"></property>
+		<property name="cilindrada" value="0"></property>
+	</bean>
+	
+	
+	
+	<bean id="coche2" class="modelo.entidad.Coche">
+		<property name="matricula" value="6969"></property>
+		<property name="marca" value="Toyota"></property>
+		<property name="modelo" value="Yaris"></property>
+		<property name="segundaMano" value="false"></property>
+		<property name="precio" value="15000"></property>
+		<property name="peso" value="900"></property>
+		<property name="motor" ref="motor2"></property>
+	</bean>
+	
+	<bean id="motor2" class="modelo.entidad.Motor">
+		<property name="tipoMotor" value="diesel"></property>
+		<property name="cv" value="150"></property>
+		<property name="cilindrada" value="1900"></property>
+	</bean>
+	
+	<bean id="coche3" class="modelo.entidad.Coche">
+		<property name="matricula" value="1234"></property>
+		<property name="marca" value="Renault"></property>
+		<property name="modelo" value="Megane"></property>
+		<property name="segundaMano" value="true"></property>
+		<property name="precio" value="10000"></property>
+		<property name="peso" value="1000"></property>
+		<property name="motor" ref="motor3"></property>
+	</bean>
+	
+	<bean id="motor3" class="modelo.entidad.Motor">
+		<constructor-arg index="0" value="gasolina"></constructor-arg>
+		<constructor-arg index="1" value="180"></constructor-arg>
+		<constructor-arg index="2" value="2000"></constructor-arg>
+	</bean>
+	
+	<bean id="coche4" class="modelo.entidad.Coche">
+		<property name="matricula" value="5678"></property>
+		<property name="marca" value="BMW"></property>
+		<property name="modelo" value="X4"></property>
+		<property name="segundaMano" value="true"></property>
+		<property name="precio" value="40000"></property>
+		<property name="peso" value="1800"></property>
+		<property name="motor" ref="motor4"></property>
+	</bean>
+
+	<bean id="motor4" class="modelo.entidad.Motor">
+		<constructor-arg index="0" value="gasolina"></constructor-arg>
+		<constructor-arg index="1" value="600"></constructor-arg>
+		<constructor-arg index="2" value="3500"></constructor-arg>
+	</bean>
+
+	
+	<bean id="coche5" class="modelo.entidad.Coche">
+		<property name="matricula" value="5678"></property>
+		<property name="marca" value="BMW"></property>
+		<property name="modelo" value="X4"></property>
+		<property name="segundaMano" value="true"></property>
+		<property name="precio" value="40000"></property>
+		<property name="peso" value="1800"></property>
+		<property name="motor">
+			<bean class="modelo.entidad.Motor">
+				<constructor-arg index="0" value="gasolina"></constructor-arg>
+				<constructor-arg index="1" value="600"></constructor-arg>
+				<constructor-arg index="2" value="3500"></constructor-arg>
+			</bean>
+		</property>
+	</bean>
+
+<!-- Tambien podemos hacer que los bean, al crearlos llamen a un constructor especifico -->
+	<bean id="coche6" class="modelo.entidad.Coche">
+		<constructor-arg index="0" value="7777"></constructor-arg>
+		<constructor-arg index="1" value="Mini"></constructor-arg>
+		<constructor-arg index="2" value="countryman"></constructor-arg>
+		<constructor-arg index="3" value="false"></constructor-arg>
+		<constructor-arg index="4" value="50000"></constructor-arg>
+		<constructor-arg index="5" value="1500"></constructor-arg>
+		<constructor-arg index="6">
+		<bean class="modelo.entidad.Motor">
+				<constructor-arg index="0" value="gasolina"></constructor-arg>
+				<constructor-arg index="1" value="600"></constructor-arg>
+				<constructor-arg index="2" value="3500"></constructor-arg>
+			</bean>
+		</constructor-arg>
+	</bean>
+
+	<bean id="coche7" class="modelo.entidad.Coche"></bean>
+	<bean id="motor7" class="modelo.entidad.Motor"></bean>
+		
+</beans>

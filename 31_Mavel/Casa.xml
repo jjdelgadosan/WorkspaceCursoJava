@@ -1,0 +1,55 @@
+<casa>
+	<precio>240000</precio>
+	<habitaciones>
+		<habitacion1>
+		<metrosCuadrados>24</metrosCuadrados>
+		<tipoHabitacion>Salon</tipoHabitacion>
+		</habitacion1>
+		<habitacion2>
+		<metrosCuadrados>18</metrosCuadrados>
+		<tipoHabitacion>DormitorioPrincipal</tipoHabitacion>
+		</habitacion2>
+		<habitacion3>
+		<metrosCuadrados>14</metrosCuadrados>
+		<tipoHabitacion>DormitorioInvitados</tipoHabitacion>
+		</habitacion3>
+		<habitacion4>
+		<metrosCuadrados>12</metrosCuadrados>
+		<tipoHabitacion>DormitorioNinos</tipoHabitacion>
+		</habitacion4>
+		<habitacion5>
+		<metrosCuadrados>10</metrosCuadrados>
+		<tipoHabitacion>Despacho</tipoHabitacion>
+		</habitacion5>
+		<habitacion6>
+		<metrosCuadrados>9</metrosCuadrados>
+		<tipoHabitacion>AseoPrincipal</tipoHabitacion>
+		</habitacion6>
+		<habitacion7>
+		<metrosCuadrados>7</metrosCuadrados>
+		<tipoHabitacion>Aseo</tipoHabitacion>
+		</habitacion7>
+		<habitacion8>
+		<metrosCuadrados>20</metrosCuadrados>
+		<tipoHabitacion>Cocina</tipoHabitacion>
+		</habitacion8>
+	</habitaciones>
+	<Direccion>
+		<TipoVia>Avenida</TipoVia>
+		<NombreVia>Niza</NombreVia>
+		<Ciudad>Madrid</Ciudad>
+		<CodigoPostal>28047</CodigoPostal>
+	</Direccion>
+	<Propietario>
+		<Nombre>Victor Menta de Verano</Nombre>
+		<Edad>46</Edad>
+		<Peso>80</Peso>
+		<Direccion>
+			<TipoVia>Calle</TipoVia>
+			<NombreVia>Logroño</NombreVia>
+			<Ciudad>Madrid</Ciudad>
+			<CodigoPostal>28022</CodigoPostal>
+		</Direccion>
+	</Propietario>
+</casa>
+
