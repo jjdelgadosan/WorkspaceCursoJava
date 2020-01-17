@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--  aqui creamos un objeto persona de alcance singleton 
+un objeto gestionado por spring se suele llamar bean.
+Para crear un bean en Spring debemos primero de crear la clase,
+y es obligatorio que la clase tenga un constructor por defecto.
+Por otro lado, al menos, debemos crear un bean con un identificador de la clase
+la cual vamos a usar para crear el objeto
+-->
+	<bean id="persona1" class="modelo.entidad.Persona"></bean>
+	
+	<bean id="bud" class="modelo.entidad.Persona">
+		<property name="nombre" value="Bud Spencer"></property>
+		<property name="edad" value="86"></property>
+		<property name="peso" value="200"></property>
+	</bean>
+	
+	<!-- si queremos inyectar una dependencia por propiedad podemos 
+	hacerlo con el atriburo ref y poniendo el id del objeto a inyectar
+	Se haria de manera equivalente en el constructor
+	 -->
+	<bean id="ron" class="modelo.entidad.Persona">
+		<property name="nombre" value="Ron guinslee"></property>
+		<property name="edad" value="20"></property>
+		<property name="peso" value="65"></property>
+		<property name="direccion" ref="direccion1"></property>
+	</bean>
+	
+	<bean id="direccion1" class="modelo.entidad.Direccion">
+		<property name="tipoVia" value="Calle"></property>
+		<property name="nombreVia" value="howards"></property>
+		<property name="ciudad" value="Londres"></property>
+	</bean>
+	
+	<!-- tambien podemos crear lo que se llama un bean interno para inyectarselo a la persona
+	 -->
+	<bean id="esneip" class="modelo.entidad.Persona">
+		<property name="nombre" value="Esneio Draco"></property>
+		<property name="edad" value="59"></property>
+		<property name="peso" value="71"></property>
+		<property name="direccion">
+			<bean class="modelo.entidad.Direccion">
+				<property name="tipoVia" value="Avenida"></property>
+				<property name="nombreVia" value="Hazcaban"></property>
+				<property name="ciudad" value="Pais de nunca jamas"></property>
+			</bean>
+		 </property>
+	</bean>
+		
+</beans>

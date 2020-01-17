@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="casa1" class="modelo.entidad.Casa">
+		<property name="precio" value="350000"></property>
+		<property name="listaHabitacion" ref= "habitaciones"></property>
+		<property name="direccion" ref="direccion1"></property>		
+		<property name="propietario" ref="propietario"></property>	
+	</bean>
+	
+	
+	<bean id="salon" class="modelo.entidad.Habitacion">
+		<property name="m2" value="45"></property>
+		<property name="tipoHabitacion" value="salon"></property>
+	</bean>
+	
+	<bean id="cocina" class="modelo.entidad.Habitacion">
+		<property name="m2" value="23"></property>
+		<property name="tipoHabitacion" value="cocina"></property>
+	</bean>
+	
+	<bean id="baño" class="modelo.entidad.Habitacion">
+		<property name="m2" value="10"></property>
+		<property name="tipoHabitacion" value="baño"></property>
+	</bean>
+	
+	<bean id="aseo" class="modelo.entidad.Habitacion">
+		<property name="m2" value="8"></property>
+		<property name="tipoHabitacion" value="aseo"></property>
+	</bean>
+	
+	<bean id="habitaciones" class="java.util.ArrayList">
+			<constructor-arg>
+			<list value-type="modelo.entidad.Habitacion">
+				<ref bean="salon"/>
+				<ref bean="cocina"></ref>
+				<ref bean="baño"></ref>
+				<ref bean="aseo"></ref>
+				<bean class="modelo.entidad.Habitacion">
+					<property name="m2" value="18"></property>
+					<property name="tipoHabitacion" value="habitacion1"></property>
+				</bean>
+				<bean class="modelo.entidad.Habitacion">
+					<property name="m2" value="15"></property>
+					<property name="tipoHabitacion" value="habitacion2"></property>
+				</bean>
+				<bean class="modelo.entidad.Habitacion">
+					<property name="m2" value="19"></property>
+					<property name="tipoHabitacion" value="habitacion3"></property>
+				</bean>
+				<bean class="modelo.entidad.Habitacion">
+					<property name="m2" value="25"></property>
+					<property name="tipoHabitacion" value="habitacion4"></property>
+				</bean>
+			</list>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="direccion1" class="modelo.entidad.Direccion">
+		<property name="ciudad" value="madrid"></property>
+		<property name="cp" value="28022"></property>
+		<property name="nombreVia" value="Niza"></property>
+		<property name="tipoVia" value="Avenida"></property>
+	</bean>	
+
+	<bean id="propietario" class="modelo.entidad.Persona">
+		<property name="direccion">
+		<bean class="modelo.entidad.Direccion">
+			<property name="ciudad" value="Malaga"></property>
+			<property name="cp" value="20028"></property>
+			<property name="nombreVia" value="La playa"></property>
+			<property name="tipoVia" value="Paseo"></property>
+		</bean>
+		</property>
+		<property name="edad" value="28"></property>
+		<property name="nombre" value="Jorge"></property>
+		<property name="peso" value="80"></property>
+	</bean>	
+
+<!-- Ciclos de vida de los objetos en Spring
+
+	De momento todos los objetos que hemos crado hasta la fechas son de alcance (scope) o de ciclo 
+	de vida son de tipo SINGLETON. Esto quiere decir que la instancia de dicho objeto es unico,
+	solo existe un objeto.
+	Por ejemplo, cuando me creo el objeto con id="bud", el objeto era unico y su ciclo de vida
+	va a ser el ciclo de vida del programa
+	
+	existe otro ciclo de vida que es el llamado PROTOTYPE, este ciclo de vida dice que cada vez
+	que pidamos ese objeto, no nos va a devolver ese objeto, nos va a devolver un clon del mismo. 
+
+ -->
+
+
+<!-- Para establece el scope o ciclo de vida de un objeto usamos el atributo scope, si no 
+le decimos nada será Singleton
+-->
+	<bean   id="personaSingleton"
+			class="modelo.entidad.Persona"
+			scope="singleton">
+			<property name="nombre" value="Axteris"></property>
+			<property name="edad" value="39"></property>
+			<property name="peso" value="49"></property>
+	</bean>
+
+	<bean id="direccionPrototype" 
+		  class="modelo.entidad.Direccion"
+		  scope="prototype">
+	</bean>
+	
+	
+	<bean id="personaPrototype" 
+		  class="modelo.entidad.Persona"
+		  scope="prototype">
+		  <property name="nombre" value=""></property>
+		  <property name="edad" value="18"></property>
+		  <property name="direccion" ref="direccionPrototype"></property>
+	</bean>
+	
+	<bean id="listaPersonasSingleton" class="java.util.ArrayList"></bean>	
+
+
+</beans>

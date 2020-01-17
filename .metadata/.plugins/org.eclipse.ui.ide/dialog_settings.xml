@@ -6,12 +6,13 @@
 		</list>
 	</section>
 	<section name="ExternalProjectImportWizard">
-		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Jorge\workspaceJSE\33_SpringCoreFelix"/>
 			<item value="C:\Jorge\workspaceJSE\Examen3EugenioMartin"/>
 			<item value="C:\Jorge\workspaceJSE\Examen3IgnacioArregui2"/>
 			<item value="C:\Jorge\workspaceJSE\Examen3IgnacioArregui"/>
@@ -31,7 +32,6 @@
 			<item value="C:\Jorge\workspaceFelix\WorkspaceCursoCore\15_EstaticoVsDinamico_Felix"/>
 			<item value="C:\Jorge\workspaceFelix\WorkspaceCursoCore\14_Instituto"/>
 			<item value="C:\Jorge\workspaceJSE\13_Libreria_Corregido"/>
-			<item value="C:\Jorge\workspaceJSE\12_Peliculas_Corregido"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

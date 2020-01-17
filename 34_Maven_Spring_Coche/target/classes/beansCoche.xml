@@ -105,5 +105,7 @@
 
 	<bean id="coche7" class="modelo.entidad.Coche"></bean>
 	<bean id="motor7" class="modelo.entidad.Motor"></bean>
-		
+	
+	
+				
 </beans>

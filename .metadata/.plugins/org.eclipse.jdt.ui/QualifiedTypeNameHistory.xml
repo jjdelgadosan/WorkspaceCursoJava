@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="bean.Coche"/>
-<fullyQualifiedTypeName name="Bean.Peliculas"/>
-<fullyQualifiedTypeName name="Bean.Director"/>
-<fullyQualifiedTypeName name="Bean.GestorPeliculas"/>
-<fullyQualifiedTypeName name="Bean.Pelicula"/>
-<fullyQualifiedTypeName name="java.awt.peer.ListPeer"/>
-<fullyQualifiedTypeName name="Modelo.negocio.GestorLibros"/>
-<fullyQualifiedTypeName name="Modelo_entidad.Libro"/>
-<fullyQualifiedTypeName name="Modelo_entidad.Libreria"/>
-<fullyQualifiedTypeName name="modelo.entidad.alumno"/>
-<fullyQualifiedTypeName name="modelo.entidad.Curso"/>
-<fullyQualifiedTypeName name="modelo.entidad.Profesor"/>
-<fullyQualifiedTypeName name="entidad.Persona"/>
-<fullyQualifiedTypeName name="entidad.Tiburon"/>
 <fullyQualifiedTypeName name="entidad.Animal"/>
 <fullyQualifiedTypeName name="entidad.PezPayaso"/>
 <fullyQualifiedTypeName name="entidad.Trucha"/>
@@ -37,10 +22,8 @@
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="Modelo.entidad.Coche"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="modelo.persistencia.DaoPelicula"/>
 <fullyQualifiedTypeName name="negocio.GestorPeliculas"/>
-<fullyQualifiedTypeName name="modelo.entidad.Pelicula"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="modelo.entidad.Libro"/>
 <fullyQualifiedTypeName name="basico.HiloThread"/>
@@ -57,7 +40,24 @@
 <fullyQualifiedTypeName name="java.net.ServerSocket"/>
 <fullyQualifiedTypeName name="java.net.Socket"/>
 <fullyQualifiedTypeName name="Personaje"/>
+<fullyQualifiedTypeName name="modelo.entidad.Coche"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="modelo.entidad.Motor"/>
+<fullyQualifiedTypeName name="modelo.entidad.Persona"/>
+<fullyQualifiedTypeName name="modelo.entidad.Casa"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-<fullyQualifiedTypeName name="modelo.entidad.Persona"/>
+<fullyQualifiedTypeName name="vista.MainLibreria"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="cfg.Configuracionspring"/>
+<fullyQualifiedTypeName name="modelo.entidad.Director"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+<fullyQualifiedTypeName name="modelo.entidad.Pelicula"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
 </qualifiedTypeNameHistroy>
