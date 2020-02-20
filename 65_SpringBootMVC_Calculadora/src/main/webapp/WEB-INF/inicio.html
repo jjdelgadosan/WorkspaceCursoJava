@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<center>
+		<h1>Bienvenidos a nuestra pagina web de multiplicacion</h1>
+		<h2>Por favor, introduzca los datos para la operacion a realizar</h2>
+	</center>
+	<br/>
+	<br/>
+	<form action="CalularYGuardar" method="post">
+		<br/>
+		Primer operador : <input type="text" name="primerOperador"/>
+		<br/>
+		Segundo operador : <input type="text" name="segundoOperador"/>
+		<br/>
+		<h3>Elija el tipo de operacion</h3>
+		<br/>
+		<br/><input type="radio" name="tipo" value="suma">Suma
+		<br/><input type="radio" name="tipo" value="resta">Resta
+		<br/><input type="radio" name="tipo" value="multiplicacion">Multiplicación
+		<br/><input type="radio" name="tipo" value="division">División
+		<br/>
+		<input type="submit" value="Calcular">
+	</form>	
+		
+		<table border=1>
+			<tr>
+				<th>Primer operador </th>
+				<th>Segundo operador </th>
+				<th>Operador </th>
+				<th>Resultado </th>
+			</tr>
+			
+			 <c:forEach items="${tablaMultiplicar.listaResultados}" 
+			 	var="resultado" varStatus="i">
+             	<tr>
+             		<td>${tablaMultiplicar.numero}</td>
+                	<td>${i.count}</td>
+                	<td>${resultado}</td>
+                </tr>
+             </c:forEach>
+		</table>
+	
+		<a href="saludoHora">Ir a ver la hora</a>
+</body>
+</html>

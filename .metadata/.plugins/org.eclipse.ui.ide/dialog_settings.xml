@@ -12,6 +12,19 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Jorge\workspaceJSE\63_SpringMVCLogin"/>
+			<item value="C:\Jorge\workspaceJSE\62_SpringMVCOrdenador"/>
+			<item value="C:\Jorge\workspaceJSE\61_SpringMVCTablaMultiplicar"/>
+			<item value="C:\Jorge\workspaceJSE\60_SpringMVC"/>
+			<item value="C:\Jorge\workspaceJSE\59_EjercicioRegistro"/>
+			<item value="C:\Jorge\workspaceJSE\57_JSP"/>
+			<item value="C:\Jorge\workspaceJSE\58_EjercicioFormularioJSP"/>
+			<item value="C:\Jorge\workspaceJSE\56_EjercicioFormularios"/>
+			<item value="C:\Jorge\workspaceJSE\55_FormulariosRedirect"/>
+			<item value="C:\Jorge\workspaceFelix\WorkspaceCursoCore\51_TablaMultiplicar"/>
+			<item value="C:\Jorge\workspaceJSE\50_Servlets"/>
+			<item value="C:\Jorge\workspaceJSE\49_PaginaFormularioPelicula"/>
+			<item value="C:\Jorge\workspaceJSE\47_HTML"/>
 			<item value="C:\Jorge\workspaceJSE\33_SpringCoreFelix"/>
 			<item value="C:\Jorge\workspaceJSE\Examen3EugenioMartin"/>
 			<item value="C:\Jorge\workspaceJSE\Examen3IgnacioArregui2"/>
@@ -19,19 +32,6 @@
 			<item value="C:\Jorge\workspaceJSE\26_Sockets"/>
 			<item value="C:\Jorge\workspaceJSE\24_Hilos_Felix"/>
 			<item value="C:\Jorge\workspaceJSE\23_LibreriaBBDD"/>
-			<item value="C:\Jorge\workspaceJSE\22_ExamenDriver"/>
-			<item value="C:\Jorge\workspaceJSE\21_DriverBBDDFelix"/>
-			<item value="C:\Jorge\workspaceJSE\19_EmpleadosExcepcionesFelix"/>
-			<item value="C:\Jorge\workspaceJSE\17_EmpleadosHerenciaFelix"/>
-			<item value="C:\Jorge\workspaceJSE\18_Excepciones - Eugenio"/>
-			<item value="C:\Jorge\workspaceJSE\18_Excepciones"/>
-			<item value="C:\Jorge\workspaceJSE\17_empleado"/>
-			<item value="C:\Jorge\workspaceJSE\16_Herencia_Felix"/>
-			<item value="C:\Jorge\workspaceJSE\99_Herencia_Empleados_Felix"/>
-			<item value="C:\Jorge\workspaceJSE\89_Herencia_Empleados_Felix"/>
-			<item value="C:\Jorge\workspaceFelix\WorkspaceCursoCore\15_EstaticoVsDinamico_Felix"/>
-			<item value="C:\Jorge\workspaceFelix\WorkspaceCursoCore\14_Instituto"/>
-			<item value="C:\Jorge\workspaceJSE\13_Libreria_Corregido"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
@@ -43,5 +43,12 @@
 		<item key="DIALOG_WIDTH" value="525"/>
 		<item key="DIALOG_HEIGHT" value="580"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="550"/>
+		<item key="DIALOG_Y_ORIGIN" value="151"/>
+		<item key="DIALOG_WIDTH" value="500"/>
+		<item key="DIALOG_HEIGHT" value="419"/>
+		<item key="TOGGLE_SELECTED" value="false"/>
 	</section>
 </section>

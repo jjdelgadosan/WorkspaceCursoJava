@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body background="ordenador2.jpg">
+	<marquee>¡¡¡ esto es un problema informatico !!!</marquee>
+ 	<h1 style="text-align: center;color:green;font-family: bookman old style">Bienvenidos al apasionante mundo de la informatica </h1>
+	<h2>Create tu propio equipo por el modico precio de 1000 euros</h2>
+	<h2>Elige tus propios componentes</h2> 	
+	
+	<!-- 
+		La ruta para acceder de manera absoluta al servlet seria
+		http://localhost:8080/55_FormulariosRedirect/servlet/ServletInicial
+		
+		La ruta para acceder de maenra absouluta a este index.html seria
+		http://localhost:8080/55_FormulariosRedirect/index.html
+		
+		Por lo tanto podemos concluir que tanto el servlet como el html estan al mismo nivel de la URL
+		
+		De tal manera, el action podriamos poner ruta absoulta o relativa para mandar la informacion 
+		de este formulario al servlet
+
+		De manera relativa seria simplemente poniendo "ServletInicial"
+	 -->
+
+	<form action="ServletTienda">
+		<br/>
+		<h3>Elija el tipo de ordenador que quieres</h3>
+		<input type="radio" name="tipo" value="portatil"> Portatil
+		<br/><input type="radio" name="tipo" value="sobremesa">Sobremesa
+		<br/><input type="radio" name="tipo" value="tablet">Tablet
+		<br/><input type="radio" name="tipo" value="burruño">Burruño
+		<br/>
+		
+		<!-- El desplegable funciona de manera parecida a los radio -->
+		<h3>Elija la placa base</h3>
+		<select name="placaBase">
+			<option value="asus">Asus</option>
+			<option value="intel">Intel</option>
+			<option value="socket">Socket</option>
+			<option value="msi">MSI</option>
+		</select>
+		<br/>
+		<h3>Elija el tipo de procesador</h3>
+		<input type="radio" name="procesador" value="atom"> Atom
+		<br/><input type="radio" name="procesador" value="celeron">Celeron
+		<br/><input type="radio" name="procesador" value="pentiun">Pentium
+		<br/><input type="radio" name="procesador" value="core">Core
+		<br/><input type="radio" name="procesador" value="xeon">Xeon
+		<br/>
+		
+		<h3>Tarjetas</h3>
+		<br/><input type="checkbox" name="tarjeta" value="grafica">Tarjeta grafica
+		<br/><input type="checkbox" name="tarjeta" value="sonido">Tarjeta de sonido
+		<br/><input type="checkbox" name="tarjeta" value="red">Tarjeta de red
+				
+		<h3>Pide las cositas curiosas que quieres</h3>
+		<textarea rows="10" cols="50" name="texto"></textarea>
+		<br/>
+		
+		<input type="submit" value="Enviar"/>	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+		<h6>*Te vamos a cobrar un pastizal en gastos de envio y administracion</h6> 	
+		
+		<p>hiperenlace</p>
+		<a href="Bienvenido.html">Pasas de los ordenadores y te mola la formula1</a>
+		<br/><a href="https://www.google.es">Me voy a google que paso de todo</a>
+	
+	
+	</form>
+</body>
+</html>

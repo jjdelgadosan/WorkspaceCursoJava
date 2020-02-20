@@ -26,13 +26,16 @@
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 			<item value="org.eclipse.m2e"/>
+			<item value="org.eclipse.jst.ws.consumption.ui.wsimport.category"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.m2e"/>
 			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
+			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
+			<item value="org.eclipse.wst.web.ui"/>
 			<item value="org.eclipse.wst.XMLCategory"/>
 		</list>
 	</section>
@@ -59,5 +62,10 @@
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
 			<item value="D:\resto ex22.zip"/>
 		</list>
+	</section>
+	<section name="EditorSelectionDialog">
+		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value=".jsp"/>
+		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
+		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="org.eclipse.ui.browser.editor"/>
 	</section>
 </section>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+	<bean id="aeropuerto" class="modelo.entidad.Aeropuerto"
+		autowire="byName">
+		<property name="nombre" value="Barajas"></property>
+		<property name="ciudad" value="Madrid"></property>
+		<property name="listaAviones">
+		<list value-type="modelo.entidad.Avion">
+			<ref bean ="avion1" />
+			<ref bean ="avion2" />
+		</list>
+		</property>
+	</bean>
+
+	<bean id="avion1" class="modelo.entidad.Avion">
+		<property name="id" value="1"></property>
+		<property name="marca" value="Airbus"></property>
+		<property name="listaAsientos">
+		<list value-type="modelo.entidad.Asiento">
+				<ref bean ="Asiento11" />
+				<ref bean ="Asiento21" />
+				<ref bean ="Asiento31" />
+				<ref bean ="Asiento41" />
+				<ref bean ="Asiento51" />
+		</list>
+		</property>
+		<property name="listaRuedas"> 
+		<list value-type="modelo.entidad.Rueda">
+				<ref bean ="rueda11" />
+				<ref bean ="rueda21" />
+				<ref bean ="rueda31" />
+				<ref bean ="rueda41" />
+				<ref bean ="rueda51" />
+		</list>
+		</property>
+		<property name ="listaMotores">
+		<list value-type="modelo.entidad.Motor">
+			<bean id="motor1" class="modelo.entidad.Motor">
+				<property name="cv" value="1000"></property>
+				<property name="cilindrada" value="40000"></property>
+			</bean>
+			<bean id="motor1" class="modelo.entidad.Motor">
+				<property name="cv" value="1000"></property>
+				<property name="cilindrada" value="40000"></property>
+			</bean>
+			<bean id="motor1" class="modelo.entidad.Motor">
+				<property name="cv" value="1500"></property>
+				<property name="cilindrada" value="50000"></property>
+			</bean>
+			<bean id="motor1" class="modelo.entidad.Motor">
+				<property name="cv" value="1500"></property>
+				<property name="cilindrada" value="50000"></property>
+			</bean>
+		</list>
+		</property>	
+	</bean>
+	
+	
+	<bean id="rueda11" class="modelo.entidad.Rueda">
+		<property name="marca" value="Pirelli"></property>
+		<property name="material" value="chicle"></property>
+	</bean>
+	<bean id="rueda21" class="modelo.entidad.Rueda">
+		<property name="marca" value="Pirelli"></property>
+		<property name="material" value="chicle"></property>
+	</bean>
+	<bean id="rueda31" class="modelo.entidad.Rueda">
+		<property name="marca" value="Michellin"></property>
+		<property name="material" value="goma base"></property>
+	</bean>
+	<bean id="rueda41" class="modelo.entidad.Rueda">
+		<property name="marca" value="Michellin"></property>
+		<property name="material" value="goma base"></property>
+	</bean>
+	<bean id="rueda51" class="modelo.entidad.Rueda">
+		<property name="marca" value="Pirata"></property>
+		<property name="material" value="mayonesa"></property>
+	</bean>
+	
+	<bean id="Asiento11" class="modelo.entidad.Asiento">
+		<property name="numero" value="11"></property>
+		<property name="color" value="verde"></property>
+	</bean>
+	<bean id="Asiento21" class="modelo.entidad.Asiento">
+		<property name="numero" value="21"></property>
+		<property name="color" value="verde"></property>
+	</bean>
+	<bean id="Asiento31" class="modelo.entidad.Asiento">
+		<property name="numero" value="31"></property>
+		<property name="color" value="verde"></property>
+	</bean>
+	<bean id="Asiento41" class="modelo.entidad.Asiento">
+		<property name="numero" value="41"></property>
+		<property name="color" value="rojo"></property>
+	</bean>
+	<bean id="Asiento51" class="modelo.entidad.Asiento">
+		<property name="numero" value="51"></property>
+		<property name="color" value="rojo"></property>
+	</bean>
+	
+	<bean id="avion2" class="modelo.entidad.Avion">
+		<property name="id" value="2"></property>
+		<property name="marca" value="Boing"></property>
+		<property name="listaAsientos">
+		<list value-type="modelo.entidad.Asiento">
+				<ref bean ="Asiento12" />
+				<ref bean ="Asiento22" />
+				<ref bean ="Asiento32" />
+				<ref bean ="Asiento42" />
+				<ref bean ="Asiento52" />
+		</list>
+		</property>
+		<property name="listaRuedas"> 
+		<list value-type="modelo.entidad.Rueda">
+				<ref bean ="rueda12" />
+				<ref bean ="rueda22" />
+				<ref bean ="rueda32" />
+				<ref bean ="rueda42" />
+				<ref bean ="rueda52" />
+		</list>
+		</property>
+		<property name ="listaMotores">
+		<list value-type="modelo.entidad.Motor">
+			<bean id="motor1" class="modelo.entidad.Motor">
+				<property name="cv" value="2000"></property>
+				<property name="cilindrada" value="20000"></property>
+			</bean>
+			<bean id="motor1" class="modelo.entidad.Motor">
+				<property name="cv" value="100"></property>
+				<property name="cilindrada" value="4000"></property>
+			</bean>
+			<bean id="motor1" class="modelo.entidad.Motor">
+				<property name="cv" value="1500"></property>
+				<property name="cilindrada" value="50000"></property>
+			</bean>
+			<bean id="motor1" class="modelo.entidad.Motor">
+				<property name="cv" value="1500"></property>
+				<property name="cilindrada" value="50000"></property>
+			</bean>
+		</list>
+		</property>	
+	</bean>
+	
+	
+	<bean id="rueda12" class="modelo.entidad.Rueda">
+		<property name="marca" value="Pirelli"></property>
+		<property name="material" value="chicle"></property>
+	</bean>
+	<bean id="rueda22" class="modelo.entidad.Rueda">
+		<property name="marca" value="Pirelli"></property>
+		<property name="material" value="chicle"></property>
+	</bean>
+	<bean id="rueda32" class="modelo.entidad.Rueda">
+		<property name="marca" value="Michellin"></property>
+		<property name="material" value="goma base"></property>
+	</bean>
+	<bean id="rueda42" class="modelo.entidad.Rueda">
+		<property name="marca" value="Michellin"></property>
+		<property name="material" value="goma base"></property>
+	</bean>
+	<bean id="rueda52" class="modelo.entidad.Rueda">
+		<property name="marca" value="Pirata"></property>
+		<property name="material" value="mayonesa"></property>
+	</bean>
+	
+	<bean id="Asiento12" class="modelo.entidad.Asiento">
+		<property name="numero" value="1"></property>
+		<property name="color" value="verde"></property>
+	</bean>
+	<bean id="Asiento22" class="modelo.entidad.Asiento">
+		<property name="numero" value="2"></property>
+		<property name="color" value="verde"></property>
+	</bean>
+	<bean id="Asiento32" class="modelo.entidad.Asiento">
+		<property name="numero" value="3"></property>
+		<property name="color" value="verde"></property>
+	</bean>
+	<bean id="Asiento42" class="modelo.entidad.Asiento">
+		<property name="numero" value="4"></property>
+		<property name="color" value="rojo"></property>
+	</bean>
+	<bean id="Asiento52" class="modelo.entidad.Asiento">
+		<property name="numero" value="5"></property>
+		<property name="color" value="rojo"></property>
+	</bean>
+	
+	
+
+</beans>
