@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="basico.HiloThread"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="basico.HiloRunnable"/>
-<fullyQualifiedTypeName name="ejerciciohilos.HiloPrimo1"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.rmi.server.SocketSecurityException"/>
@@ -60,4 +55,9 @@
 <fullyQualifiedTypeName name="curso.modelo.entidad.Operacion"/>
 <fullyQualifiedTypeName name="curso.modelo.negocio.GestorProducto"/>
 <fullyQualifiedTypeName name="org.hibernate.query.criteria.internal.predicate.IsEmptyPredicate"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.annotation.Generated"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="curso.modelo.gestor.GestorPelicula"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
 </qualifiedTypeNameHistroy>
